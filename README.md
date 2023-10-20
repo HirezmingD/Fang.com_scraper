@@ -1,6 +1,7 @@
 ### 爬取房天下网站的房价交易及小区数据（Fang_com_hangzhou.py）
 
 网址（杭州房天下）：https://hz.fang.com/
+
 爬取范围，最新中心城区：西湖、余杭、拱墅、上城、滨江、临平、钱塘、萧山
 网页访问顺序：房天下-杭州-小区 
 爬取逻辑：
@@ -12,3 +13,4 @@
 
 ### 调用高德API获取小区高德坐标（house_GDxy.py）
 * 输入文件路径，读取小区名称，挨个返回高德坐标
+* 使用的是高德地图web服务，官方开发指南:https://lbs.amap.com/api/webservice/guide/api/search
